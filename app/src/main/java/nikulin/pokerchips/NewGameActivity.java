@@ -1,0 +1,13 @@
+package nikulin.pokerchips;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class NewGameActivity extends PokerActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_new_game);
+    }
+}
